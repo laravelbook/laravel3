@@ -1,4 +1,14 @@
 {
+    "name": "laravel/framework",
+    "description": "The Laravel Framework.",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Taylor Otwell",
+            "email": "taylorotwell@gmail.com"
+        }
+    ],
 	"require": {
 		"laravelbook/framework3": "3.0.*"
 	},
