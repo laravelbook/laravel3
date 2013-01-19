@@ -1,0 +1,15 @@
+{
+	"require": {
+		"laravelbook/framework3": "3.0.*"
+	},
+	"autoload": {
+		"classmap": [
+			"application/tasks",
+			"application/controllers",
+			"application/models",
+			"application/database/migrations",
+			"application/tests/TestCase.php"
+		]
+	},
+	"minimum-stability": "dev"
+}
