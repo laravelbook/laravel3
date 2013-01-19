@@ -26,6 +26,6 @@
           "type": "vcs",
           "url": "https://github.com/laravelbook/laravel3.git"
       }
-  }	
+  },
 	"minimum-stability": "dev"
 }
