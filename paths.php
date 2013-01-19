@@ -35,7 +35,7 @@ $paths['app'] = 'application';
 // --------------------------------------------------------------
 // The path to the Laravel directory.
 // --------------------------------------------------------------
-$paths['sys'] = 'laravel';
+$paths['sys'] = 'vendor/laravelbook/framework3/src';
 
 // --------------------------------------------------------------
 // The path to the bundles directory.

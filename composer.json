@@ -17,8 +17,7 @@
 			"application/tasks",
 			"application/controllers",
 			"application/models",
-			"application/database/migrations",
-			"application/tests/TestCase.php"
+			"application/migrations"
 		]
 	},
   "repositories": {
