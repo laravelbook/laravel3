@@ -15,6 +15,21 @@ define('LARAVEL_START', microtime(true));
 # Comment out the following line to use regular (fat) Laravel
 define('LARAVEL_LITE', true);
 
+/*
+|--------------------------------------------------------------------------
+| Register The Composer Auto Loader
+|--------------------------------------------------------------------------
+|
+| Composer provides a convenient, automatically generated class loader
+| for our application. We just need to utilize it! We'll require it
+| into the script here so that we do not have to worry about the
+| loading of any our classes "manually". Feels great to relax.
+|
+*/
+if ( !defined('LARAVEL_LITE') ) {
+    require __DIR__.'/../vendor/autoload.php';
+}
+
 // --------------------------------------------------------------
 // Indicate that the request is from the web.
 // --------------------------------------------------------------
@@ -23,7 +38,7 @@ $web = true;
 // --------------------------------------------------------------
 // Set the core Laravel path constants.
 // --------------------------------------------------------------
-require '../paths.php';
+require __DIR__.'/../paths.php';
 
 // --------------------------------------------------------------
 // Unset the temporary web variable.
