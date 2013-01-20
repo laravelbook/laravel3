@@ -175,6 +175,7 @@ return array(
 		'IoC'        	=> 'Laravel\\IoC',
 		'Lang'       	=> 'Laravel\\Lang',
 		'Log'        	=> 'Laravel\\Log',
+		'Mail'        	=> 'Laravel\\Mail\Mailer',
 		'Memcached'  	=> 'Laravel\\Memcached',
 		'Paginator'  	=> 'Laravel\\Paginator',
 		'Profiler'  	=> 'Laravel\\Profiling\\Profiler',

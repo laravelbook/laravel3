@@ -33,16 +33,14 @@ $environments = array(
 $paths['app'] = 'application';
 
 // --------------------------------------------------------------
+// The path to the vendor directory.
+// --------------------------------------------------------------
+$paths['vendor'] = 'vendor';
+
+// --------------------------------------------------------------
 // The path to the Laravel directory.
 // --------------------------------------------------------------
-
-if ( defined('LARAVEL_LITE') ) {
-    $paths['sys'] = 'laravel_lite';
-}
-else {
-    $paths['sys'] = 'vendor/laravelbook/framework3/src';
-}
-
+$paths['sys'] = 'vendor/laravelbook/framework3/src';
 
 // --------------------------------------------------------------
 // The path to the bundles directory.
