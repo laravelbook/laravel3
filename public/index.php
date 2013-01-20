@@ -12,8 +12,8 @@
 // Tick... Tock... Tick... Tock...
 // --------------------------------------------------------------
 define('LARAVEL_START', microtime(true));
-# Comment out the following line to use regular (fat) Laravel
-define('LARAVEL_LITE', true);
+# Un-comment out the following line to use the compact version of Laravel
+#define('LARAVEL_LITE', true);
 
 /*
 |--------------------------------------------------------------------------
