@@ -8,6 +8,8 @@
  * @link     http://laravel.com
  */
 
+require __DIR__.'/vendor/autoload.php';
+
 // --------------------------------------------------------------
 // Set the core Laravel path constants.
 // --------------------------------------------------------------

@@ -21,7 +21,7 @@
 		]
 	},
   "repositories": {
-      "laravel": {
+      "laravel3": {
           "type": "vcs",
           "url": "https://github.com/laravelbook/laravel3.git"
       }
