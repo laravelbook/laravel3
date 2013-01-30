@@ -40,7 +40,12 @@ $paths['vendor'] = 'vendor';
 // --------------------------------------------------------------
 // The path to the Laravel directory.
 // --------------------------------------------------------------
-$paths['sys'] = 'vendor/laravelbook/framework3/src';
+if ( defined('LARAVEL_LITE') ) {
+    $paths['sys'] = 'laravel_lite';
+}
+else {
+    $paths['sys'] = 'vendor/laravelbook/framework3/src';
+}
 
 // --------------------------------------------------------------
 // The path to the bundles directory.
