@@ -13,7 +13,7 @@
 // --------------------------------------------------------------
 define('LARAVEL_START', microtime(true));
 # Un-comment out the following line to use the compact version of Laravel
-#define('LARAVEL_LITE', true);
+define('LARAVEL_LITE', true);
 #define('LARAVEL_EXTRA', true);
 #define('SYMFONY_EXTRA', true);
 
