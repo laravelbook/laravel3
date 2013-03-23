@@ -10,7 +10,7 @@
         }
     ],
 	"require": {
-		"laravelbook/framework3": "3.0.*"
+		"laravelbook/framework3": "3.2.*@dev"
 	},
 	"autoload": {
 		"classmap": [
